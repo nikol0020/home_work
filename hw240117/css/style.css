@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+}
+li{
+    display:inline-block;
+    padding:10px;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+    font:larger bold Arial;
+}
+header{
+    width:100%;
+    height:3em;
+    background:#000;
+}
+#block1{
+    width:100%;
+    background:#008B8B;
+}
+#block11>p{
+    font-size:36px;
+}
+#block11{
+    width:60%;
+    height:25em;
+    background:#008B8B;
+    color:#fff;
+    padding:7em 3em;
+}
+#footer{
+    width:100%;
+    height:10em;
+    background:#000;
+    font-size: medium;
+    line-height:10em;
+    text-align:center;
+    color:#fff;
+}
+#logo{
+    width:10em;
+    height:10em;
+    float:right;
+    background:#C71585;
+}
+#logo>div{
+    width:4em;
+    height:4em;
+    margin:3em 3em;
+    background-image:url(http://icon-icons.com/icons2/285/PNG/64/social_google_box_white_256_30656.png);
+}
+#img1,#img2,#img3{
+    width:33.1%;
+    height:20em;
+    background:#4B0082;
+    border:1px solid #000;
+    float:left;
+    overflow:hidden;
+}
+#img1{
+    background:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5gHzyzPYNPabjfR_au03r82CTBPmVdWRyRwcbjzouV1-cQyqY);
+    background-repeat:round;
+
+}
+#img2{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BvBN-XhkJQCpxvoVAMaWyt_yoivETcKgAJY47OwXKVNCPmHpMg);
+    background-repeat:round;
+}
+#img3{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItZX38NytdZQhC3ms_OYBGSLCFFRCJHtJdOq98AJH3R1Vm-Q5vg);
+    background-repeat:round;
+}
+#page1{
+    width:50%;
+    height:20em;
+    float:left;
+    padding:20px 30px;
+}
+#page2{
+    width:50%;
+    height:20em;
+    float:left;
+    padding:70px 30px;
+}
