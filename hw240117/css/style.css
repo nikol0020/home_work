@@ -1,56 +1,35 @@
 *{
     box-sizing:border-box;
 }
-li{
-    display:inline-block;
-    padding:2em;
-}
-a{
-    text-decoration:none;
-    color:#fff;
-    font:larger bold Arial;
-}
-header{
-    width:100%;
-    height:5em;
-    background:#000;
-}
 #block1{
     width:100%;
     background:#008B8B;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    width:100%;
+    background:#000;
+}
 #block11{
-    width:90%;
-    height:15em;
     background:#008B8B;
     color:#fff;
-    font-size:3em;
     padding:3em 2em;
 }
 #footer{
     width:100%;
-    height:10em;
     background:#000;
-    font-size: medium;
-    line-height:10em;
     text-align:center;
     color:#fff;
 }
 #logo{
-    width:10em;
-    height:10em;
     float:right;
     background:#C71585;
 }
-#logo>div{
-    width:4em;
-    height:4em;
-    margin:3em 3em;
-    background-image:url(http://icon-icons.com/icons2/285/PNG/64/social_google_box_white_256_30656.png);
-}
 #img1,#img2,#img3{
     width:33.33%;
-    height:20em;
     background:#4B0082;
     border:1px solid #000;
     float:left;
@@ -71,11 +50,97 @@ header{
     width:50%;
     height:20em;
     float:left;
-    padding:2em 3em;
 }
 #page2{
     width:50%;
     height:20em;
     float:left;
-    padding:5em 3em;
+}
+@media only screen and (min-width: 768px){
+    li{
+        display:inline-block;
+        padding:2em;
+    }
+    a{
+        font:larger bold Arial;
+    }
+    header{
+        height:5em;
+    }
+    #block11{
+        width:90%;
+        height:15em;
+        font-size:3em;
+    }
+    #footer{
+        height:10em;
+        font-size: medium;
+        line-height:10em;
+    }
+    #logo{
+        width:10em;
+        height:10em;
+    }
+    #logo>div{
+        width:4em;
+        height:4em;
+        margin:3em 3em;
+        background-image:url(http://icon-icons.com/icons2/285/PNG/64/social_google_box_white_256_30656.png);
+    }
+    #img1,#img2,#img3{
+        height:20em;
+    }
+    #page1{
+        padding:2em 3em;
+    }
+    #page2{
+        padding:5em 3em;
+    }
+}
+@media only screen and (max-width: 640px){
+    li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    a {
+        font: 0.3em bold Arial;
+        margin:0 auto;
+    }
+
+    header {
+        height: 2em;
+    }
+    #block11{
+        width:80%;
+        height:10em;
+        font-size:0.5em;
+    }
+    #footer{
+        height:5em;
+        font-size: 0.2em;
+        line-height:5em;
+    }
+    #logo{
+        width: 5em;
+        height:5em;
+    }
+    #logo>div{
+        width: 1.5em;
+        height: 1.5em;
+        margin:1.75em;
+        background:#fff;
+    }
+    #img1,#img2,#img3{
+        height:10em;
+    }
+    #page1{
+        padding:2em 3em;
+        font-size: 0.2em;
+
+    }
+    #page2{
+        padding:5em 3em;
+        font-size: 0.2em;
+    }
 }
