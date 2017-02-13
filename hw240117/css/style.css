@@ -1,146 +1,146 @@
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-#block1{
-    width:100%;
-    background:#008B8B;
+.menu{
+    width: 100%;
+    background: #000;
 }
-a{
+.menu_item__allusion{
     text-decoration: none;
     color: #fff;
 }
-header{
-    width:100%;
-    background:#000;
-}
-#block11{
+.section_block{
+    width: 100%;
     background:#008B8B;
-    color:#fff;
-    padding:3em 2em;
 }
-#footer{
-    width:100%;
-    background:#000;
-    text-align:center;
-    color:#fff;
+.article_quote{
+    background: #008B8B;
+    color: #fff;
+    padding: 3em 2em;
 }
-#logo{
-    float:right;
-    background:#C71585;
+.footer{
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #fff;
 }
-#img1,#img2,#img3{
-    width:33.33%;
-    background:#4B0082;
-    border:1px solid #000;
-    float:left;
-    overflow:hidden;
+.footer_logo{
+    float: right;
+    background: #C71585;
 }
-#img1{
-    background:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5gHzyzPYNPabjfR_au03r82CTBPmVdWRyRwcbjzouV1-cQyqY);
-    background-size:cover;
+.baner_image{
+    width: 33.33%;
+    background: #4B0082;
+    border: 1px solid #000;
+    float: left;
+    overflow: hidden;
+  }
+.baner1{
+    background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5gHzyzPYNPabjfR_au03r82CTBPmVdWRyRwcbjzouV1-cQyqY);
+    background-size: cover;
 }
-#img2{
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BvBN-XhkJQCpxvoVAMaWyt_yoivETcKgAJY47OwXKVNCPmHpMg);
-    background-size:cover;}
-#img3{
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItZX38NytdZQhC3ms_OYBGSLCFFRCJHtJdOq98AJH3R1Vm-Q5vg);
-    background-size:cover;
+.baner2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BvBN-XhkJQCpxvoVAMaWyt_yoivETcKgAJY47OwXKVNCPmHpMg);
+    background-size: cover;}
+.baner3{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItZX38NytdZQhC3ms_OYBGSLCFFRCJHtJdOq98AJH3R1Vm-Q5vg);
+    background-size: cover;
 }
-#page1{
-    width:50%;
-    height:20em;
-    float:left;
+.text_page1{
+    width: 50%;
+    height: 20em;
+    float: left;
 }
-#page2{
-    width:50%;
-    height:20em;
-    float:left;
+.text_page2{
+    width: 50%;
+    height: 20em;
+    float: left;
 }
 @media only screen and (min-width: 768px){
-    li{
-        display:inline-block;
-        padding:2em;
+    .menu_item{
+        display: inline-block;
+        padding: 2em;
     }
-    a{
-        font:larger bold Arial;
+    .menu_item__allusion{
+        font: larger bold Arial;
     }
-    header{
-        height:5em;
+    .menu{
+        height: 5em;
     }
-    #block11{
-        width:90%;
-        height:15em;
-        font-size:3em;
+    .article_quote{
+        width: 90%;
+        height: 15em;
+        font-size: 3em;
     }
-    #footer{
-        height:10em;
+    .footer{
+        height: 10em;
         font-size: medium;
-        line-height:10em;
+        line-height: 10em;
     }
-    #logo{
-        width:10em;
-        height:10em;
+    .footer_logo{
+        width: 10em;
+        height: 10em;
     }
-    #logo>div{
-        width:4em;
-        height:4em;
-        margin:3em 3em;
+    .footer_logo>div{
+        width: 4em;
+        height: 4em;
+        margin: 3em 3em;
         background-image:url(http://icon-icons.com/icons2/285/PNG/64/social_google_box_white_256_30656.png);
     }
-    #img1,#img2,#img3{
-        height:20em;
+   .baner_image{
+        height: 20em;
     }
-    #page1{
-        padding:2em 3em;
+    .text_page1{
+        padding: 2em 3em;
     }
-    #page2{
-        padding:5em 3em;
+    .text_page2{
+        padding: 5em 3em;
     }
 }
 @media only screen and (max-width: 640px){
-    li {
+    .menu_item {
         display: inline-block;
         padding: 0.5em;
     }
 
-    a {
+    .menu_item__allusion {
         font: 0.3em bold Arial;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
-    header {
+   .menu {
         height: 2em;
     }
-    #block11{
-        width:80%;
-        height:10em;
-        font-size:0.5em;
+    .article_quote{
+        width: 80%;
+        height: 10em;
+        font-size: 0.5em;
     }
-    #footer{
-        height:5em;
+    .footer{
+        height: 5em;
         font-size: 0.2em;
-        line-height:5em;
+        line-height: 5em;
     }
-    #logo{
+    .footer_logo{
         width: 5em;
-        height:5em;
+        height: 5em;
     }
-    #logo>div{
+    .footer_logo>div{
         width: 1.5em;
         height: 1.5em;
-        margin:1.75em;
+        margin: 1.75em;
         background:#fff;
     }
-    #img1,#img2,#img3{
+    .baner_image{
         height:10em;
     }
-    #page1{
-        padding:2em 3em;
+    .text_page1{
+        padding: 2em 3em;
         font-size: 0.2em;
 
     }
-    #page2{
-        padding:5em 3em;
+    .text_page2{
+        padding: 4em 3em;
         font-size: 0.2em;
     }
 }
