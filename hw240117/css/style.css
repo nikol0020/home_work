@@ -36,14 +36,14 @@
     overflow: hidden;
   }
 .baner1{
-    background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5gHzyzPYNPabjfR_au03r82CTBPmVdWRyRwcbjzouV1-cQyqY);
+    background: url(../images/images1.jpg);
     background-size: cover;
 }
 .baner2{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BvBN-XhkJQCpxvoVAMaWyt_yoivETcKgAJY47OwXKVNCPmHpMg);
+    background: url(../images/images2.jpg);
     background-size: cover;}
 .baner3{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItZX38NytdZQhC3ms_OYBGSLCFFRCJHtJdOq98AJH3R1Vm-Q5vg);
+    background: url(../images/images3.jpg);
     background-size: cover;
 }
 .text_page1{
@@ -85,7 +85,7 @@
         width: 4em;
         height: 4em;
         margin: 3em 3em;
-        background-image:url(http://icon-icons.com/icons2/285/PNG/64/social_google_box_white_256_30656.png);
+        background-image:url(../images/social_google_box_white_256_30656.png);
     }
    .baner_image{
         height: 20em;
